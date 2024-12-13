@@ -1,0 +1,7 @@
+a=int(input("Enter a="))
+b=int(input("Enter b="))
+c=int(input("Enter c="))
+x=max(a,b,c)
+y=min(a,b,c)
+print(f'The largest number is {x}')
+print(f'The smallest number is {y}')
