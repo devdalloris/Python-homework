@@ -9,8 +9,7 @@ def enrollment_stats(b):
     print(f"Total students: {s1/1000}")
     print(f"Total tuition: $ {s2/1000}")
     
-def mean(b):
-    return 
+
 universities = [
     ['California Institute of Technology', 2175, 37704],
     ['Harvard', 19627, 39849],
