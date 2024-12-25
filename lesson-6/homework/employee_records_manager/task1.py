@@ -6,4 +6,4 @@ salary = input("Enter Salary: ")
 record = f"{employee_id}, {name}, {position}, {salary}\n"
 file.write(record)
 print("Employee record added.")
-file.close()
+file.close()   
