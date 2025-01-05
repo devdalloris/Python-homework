@@ -1,0 +1,8 @@
+Word Count Report
+Total Words: 173
+Top 5 Words:
+to - 9
+the - 8
+had - 5
+her - 4
+for - 4
