@@ -1,3 +1,4 @@
+import csv
 import json
 
 # Load
@@ -47,3 +48,18 @@ def average_priority():
         c=c+i.get("Priority")
     return f"The number of average priority: {c/len(data)}" 
 print(average_priority())
+
+#Convert json to csv
+def convert_json_to_csv():
+    with open("tasks.json", "r") as file:
+        data=json.load(file)
+    with open("tasks.csv", "w", newline="") as f:
+        csv_data=csv.writer(f)
+        count = 0
+        for data in data:
+            if count == 0:
+                header = data.keys()
+                csv_data.writerow(header)
+                count += 1
+            csv_data.writerow(data.values())
+convert_json_to_csv()
