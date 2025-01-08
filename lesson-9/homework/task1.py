@@ -54,8 +54,7 @@ class Library:
 
         book.is_borrowed = False
         member.borrowed_books.remove(book)
-
-# Test your program
+        
 library = Library()
 
 book1 = Book("Me Before you", "Jojo Moyes")
