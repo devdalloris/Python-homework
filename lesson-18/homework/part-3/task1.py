@@ -1,0 +1,10 @@
+import pandas as pd
+df_iris=pd.read_json('lesson-18/homework/iris.json')
+mean_sepalLength=df_iris[['sepalLength']].mean()
+mean_sepalWidth=df_iris[['sepalWidth']].mean()
+mean_petalLength=df_iris[['petalLength']].mean()
+mean_petalWidth=df_iris[['petalWidth']].mean()
+print(mean_sepalLength)
+print(mean_sepalWidth)
+print(mean_petalLength)
+print(mean_petalWidth)
