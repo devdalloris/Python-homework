@@ -1,4 +1,3 @@
 numbers=[2,4,7,2,5,6]
-i=4
-numbers.remove(numbers[i])
+numbers.remove(numbers[4])
 print(numbers)
