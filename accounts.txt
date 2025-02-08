@@ -1,0 +1,7 @@
+{
+    "100001": {
+        "account_number": "100001",
+        "name": "Dalloris",
+        "balance": 4.0
+    }
+}
